@@ -16,4 +16,9 @@ namespace tools {
     export function ledOfRectangle(length: number, width:number): void {
         basic.showNumber(length*width)
     }
+	
+	//% blockId="areaOfCircle" block="area of Circle raid %raid"
+	//% blockGap=2 weight=2
+	export function areaOfCircle(raid:number):number{
+		return radi*3.14
 }
